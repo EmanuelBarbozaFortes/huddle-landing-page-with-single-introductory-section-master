@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    background: url(../img/bg-desktop.svg) center center no-repeat;
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+    min-height: 100vh;
+}
+
+.registro{
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.imgs{
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    width: 250px;
+    margin-bottom: 9rem;
+}
+.descricao{
+    position: relative;
+    max-width: 555px;
+}
+
+.descricao h1{
+    margin-bottom: 2rem;
+    font-size: 4.3rem;
+}
+
+.descricao p{
+    margin-bottom: 4rem;
+    font-size: 1.8rem;
+}
+
+.descricao .btn{
+    color: hsl(257, 40%, 49%);
+    background-color: hsl(0, 0%, 99%);
+    border-radius: 30px;
+    padding: 15px 63px;
+    transition: 0.3s ease-in-out;
+}
+.descricao .btn:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: aliceblue; 
+}
+.redes-sociais{
+    display: flex;
+    position: absolute;
+    bottom: -170px;
+    right: 15px;
+}
+.redes-sociais a{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    font-size: 1.8rem;
+    color: aliceblue;
+    margin-left: 18px;
+    transition: 0.3s ease-in-out;
+}
+.redes-sociais a:hover{
+   color:hsl(300, 69%, 71%) ;
+   border: 1px solid hsl(300, 69%, 71%);
+}
