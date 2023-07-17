@@ -19,6 +19,7 @@ body{
 }
 
 .registro{
+    margin: 5%;
     max-width: 1440px;
     display: flex;
     align-items: center;
@@ -60,7 +61,9 @@ body{
     color: aliceblue; 
 }
 .redes-sociais{
+    width: 100%;
     display: flex;
+    justify-content: flex-end;
     position: absolute;
     bottom: -170px;
     right: 15px;
